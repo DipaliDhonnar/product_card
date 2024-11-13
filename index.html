@@ -5,6 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dress product</title>
 </head>
+<style>
+    body{
+        background-color: rgb(241, 221, 195);
+    }
+    .images{
+        width: 450px;
+        height: 550px;
+        object-fit: cover;
+        border: 1px solid black;
+        border-radius: 25px;
+        box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.25);
+        display: block;
+        margin: 30px auto;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .product{
+        height: 90px;
+        width: 70px;
+        object-fit: cover;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 8px;
+        cursor: pointer;
+    }
+</style>
 <body>
   <img src="./images/img1.jpg" alt="main-img"   id="main"   class="images"/>
 
@@ -13,9 +42,8 @@
         <img src="./images/img2.jpg" alt="img2" class="product" onclick="Imageshow(2)">
         <img src="./images/img3.jpg" alt="img3" class="product" onclick="Imageshow(3)">
         <img src="./images/img4.jpg" alt="img4" class="product" onclick="Imageshow(4)">
-        <img src="./images/img5.jpg" alt="img5" class="product" onclick="Imageshow(5)">
-       
-        
+        <img src="./images/img5.jpg" alt="img5" class="product" onclick="Imageshow(5)">  
     </div>
+
 </body>
 </html>
