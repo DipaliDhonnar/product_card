@@ -44,6 +44,27 @@
         <img src="./images/img4.jpg" alt="img4" class="product" onclick="Imageshow(4)">
         <img src="./images/img5.jpg" alt="img5" class="product" onclick="Imageshow(5)">  
     </div>
-
+    <script>
+        function Imageshow(num){
+            const mainImg = document.getElementById('main');
+            if(num==1){
+                mainImg.src = "./images/img1.jpg";
+            }
+            else if (num==2){
+                mainImg.src = "./images/img2.jpg";
+            }
+            else if (num==3){
+                mainImg.src = "./images/img3.jpg";
+            }
+            else if (num==4){
+                mainImg.src = "./images/img4.jpg";
+            }
+            else if (num==5){
+                mainImg.src = "./images/img5.jpg";
+            }
+           
+        }
+    
+    </script>
 </body>
 </html>
